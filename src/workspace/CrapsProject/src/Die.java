@@ -1,7 +1,15 @@
 package workspace.CrapsProject.src;
 
 public class Die {
-private int numDots; //numbers of fots on th e die facing tops
-numDots = 1;
+private int numDots = 1; //numbers of dots on the die facing tops
+public void roll(){
+	numDots=(int)((Math.random()*6)+1);
+	}
+public int getNumDots(){
+	return numDots;
+	}
+
+
 
 }
+

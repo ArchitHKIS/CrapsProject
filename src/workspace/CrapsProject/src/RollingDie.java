@@ -1,7 +1,5 @@
 package workspace.CrapsProject.src;
-
 // Implements a rolling die
-
 import java.awt.Graphics;
 import java.awt.Color;
 
@@ -167,7 +165,7 @@ public class RollingDie extends Die
 
       ________________________________________
       ...
-
+    
     }
   }
 }
