@@ -1,4 +1,3 @@
-package workspace.CrapsProject.src;
 
 // Craps program main class
 

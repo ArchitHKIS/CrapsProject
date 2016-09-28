@@ -1,4 +1,3 @@
-package workspace.CrapsProject.src;
 
 // Implements the game of Craps logic
 
@@ -17,8 +16,15 @@ public class CrapsGame
   public int processRoll(int total)
   {
 
-    __________________________________________
-    ...
+   if (point == 0) //the game has just started
+   {
+	   // player winds
+	   //player loses
+	   //game continues
+	   
+   } else{ // 2nd round or later 
+	   
+   }
 
     return result;
   }
