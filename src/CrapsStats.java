@@ -1,4 +1,3 @@
-package workspace.CrapsProject.src;
 
 // Statistical simulation of craps
 

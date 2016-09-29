@@ -1,4 +1,4 @@
-package workspace.CrapsProject.src;
+
 
 public class Die {
 private int numDots = 1; //numbers of dots on the die facing tops

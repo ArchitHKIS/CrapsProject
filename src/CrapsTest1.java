@@ -1,4 +1,4 @@
-package workspace.CrapsProject.src;
+
 
 // Interactive test for Craps
 

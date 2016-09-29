@@ -4,7 +4,7 @@
 public class CrapsGame
 {
   private int point = 0;
-
+  
   /**
    *  Calculates the result of the next dice roll in the Craps game.
    *  The parameter total is the sum of dots on two dice.
@@ -15,16 +15,35 @@ public class CrapsGame
    */
   public int processRoll(int total)
   {
-
+	  int result = 0;
    if (point == 0) //the game has just started
    {
-	   // player winds
+	   // player wins
+	   if (total == 7 || total == 1){
+		   result = 1;
+		   point = 0;
+	   } else if(total == 2 || total ==3 || total == 12){
+		  //player loses
+   }else {//game continues
+	   result = 0;
+	   point = total;
+   }}else { //not first time the game started
+	   //player wins
+	   if(total == point){
+		   result = 1;
+		   point = 0;
+	   }	
 	   //player loses
-	   //game continues
-	   
-   } else{ // 2nd round or later 
+	   else if(total ==7){
+		  result = -1;
+		  point = 0;
+	   }else{//player continues
+		   result = 0;
+	   }
 	   
    }
+	   
+   
 
     return result;
   }

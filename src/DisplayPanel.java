@@ -1,4 +1,3 @@
-package workspace.CrapsProject.src;
 
 // Represents a display panel for a Craps table
 
